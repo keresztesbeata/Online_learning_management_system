@@ -1,0 +1,19 @@
+nav{
+    background-color: #017575;
+}
+.links{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.links:hover {
+    background-color: rgb(40, 196, 164);
+}
+.links:active {
+    background-color: rgb(4, 102, 82);
+    color:white;
+}
+

@@ -1,0 +1,85 @@
+* {box-sizing: border-box}
+/* Full-width input fields */
+input[type=text], input[type=password] , textarea{
+    padding: 15px;
+    width: 100%;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+}
+textarea {
+    resize: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4cafa7;
+    color: white;
+    font-size: 18px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the log button */
+.submitButton {
+    alignment: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Form (background) */
+.form {
+    position: relative;
+    left: 0;
+    top: 12%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 10px;
+}
+
+/* Form Content/Box */
+.form-content {
+    background-color: #fefefe;
+    margin: 5% auto 10% auto; /* 5% from the top, 10% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.message, .warningMessage{
+    font-style: italic;
+}
+.warningMessage {
+    color: red;
+}
+.message {
+    color: #1a8c86;
+}
